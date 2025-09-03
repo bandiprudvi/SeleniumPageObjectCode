@@ -63,6 +63,10 @@ public class FrameHandle extends Baseclass  {
 		
 	}
 	
+	public void Ramam() {
+		
+	}
+	
 
 	
 }
