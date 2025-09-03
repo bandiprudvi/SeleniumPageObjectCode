@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+<groups>
+<run>
+
+<include name="FrameHandles"></include>
+
+</run>
+</groups>
+
+ 
+  <test thread-count="5" name="FrameHandles">
+ <classes>
+ 		 <class name="Prudvi.Pageodbj.FrameHandle"/>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

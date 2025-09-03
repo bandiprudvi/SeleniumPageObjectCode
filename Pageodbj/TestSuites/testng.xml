@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="Prudvi.basetest.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Alerts">
+    <classes>
+      <class name="Prudvi.Pageodbj.Alerts"/>
+    </classes>
+      </test> 
+     <test thread-count="5" name="Standalonetest">
+    <classes>
+  		<class name="Prudvi.Pageodbj.StandAlonetest"/>
+    </classes>
+      </test> 
+     <test thread-count="5" name="ErrorValidation">
+    <classes>
+ 		 <class name="Prudvi.Pageodbj.Errorvalidation"/>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+[
+	{
+		"Firtsname": "First Name",
+		"Lastname": "lastNameValue",
+		"email": "emailValue@gmail.com",
+		"password":"passwordValue",
+		"repassword": "repeatPasswordValue"
+	},
+	
+	{
+	
+				"Firtsname": "First Name1",
+				"Lastname": "lastNameValue",
+				"email": "emailValue@gmail.com",
+				"password":"passwordValue",
+				"repassword": "repeatPasswordValue"	
+		
+	}
+]
